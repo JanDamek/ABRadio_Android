@@ -1,73 +1,0 @@
-10
-
-dir
-312
-http://svn.digitalscope.cz/svn/abradio-android/ABradio/res
-http://svn.digitalscope.cz/svn/abradio-android
-
-
-
-2012-11-20T09:39:11.903212Z
-307
-tomas
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-53ac4495-2feb-4748-a5ea-eeffd059354a
-
-drawable
-dir
-
-drawable-hdpi
-dir
-
-drawable-ldpi
-dir
-
-drawable-mdpi
-dir
-
-drawable-xhdpi
-dir
-
-layout
-dir
-
-layout-1280x800
-dir
-
-layout-large
-dir
-
-layout-small
-dir
-
-menu
-dir
-
-values
-dir
-
-values-cs
-dir
-
-values-en
-dir
-
-values-sk
-dir
-
-xml
-dir
-
