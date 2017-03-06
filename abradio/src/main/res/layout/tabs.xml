@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	android:id="@android:id/tabhost" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="52dp"
+		    android:orientation="vertical" >
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:orientation="horizontal" android:paddingTop="2dp">
+
+			    <ProgressBar
+			        android:id="@+id/ani"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center"/>
+
+			    <TextView
+			        android:id="@+id/textView1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_marginRight="65dp"
+			        android:gravity="center"
+			        android:text="@string/abradio_title"
+			        android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="5dp"/>
+
+			    <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_marginLeft="-60dp"
+			        android:layout_weight="40">
+
+			        <Button
+			            android:id="@+id/button1"
+			            android:layout_width="wrap_content"
+			            android:layout_gravity="center"
+			            android:gravity="center"
+			            android:background="@drawable/start_play_touch" android:layout_height="wrap_content"/>
+
+			    </LinearLayout>
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<FrameLayout 
+			android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" 
+			android:layout_height="0.0dip"
+			android:layout_weight="1.0" android:background="#cccccc"/>
+		<TabWidget 
+			android:id="@android:id/tabs" 
+			android:visibility="gone" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_weight="0.0" />
+
+		<RadioGroup
+		    android:id="@+id/main_radio"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="bottom"
+		    android:background="#000"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+
+			<RadioButton
+			    android:id="@+id/rb1"
+			    style="@style/main_tab_bottom"
+			    android:layout_height="fill_parent"
+			    android:layout_marginTop="2.0dip"
+			    android:background="@drawable/home_btn_bg"
+			    android:checked="true"
+			    android:drawableTop="@drawable/first_tab_icon"
+			    android:text="@string/tab_1_title"/>
+
+			<RadioButton 
+				android:id="@+id/rb2" 
+				android:layout_marginTop="2.0dip" 
+				android:text="@string/tab_2_title" 
+				android:drawableTop="@drawable/second_tab_icon"
+				style="@style/main_tab_bottom" 
+				android:background="@drawable/home_btn_bg"
+				 />
+			<RadioButton 
+				android:id="@+id/rb3" 
+				android:layout_marginTop="2.0dip" 
+				android:text="@string/tab_3_title"
+				android:drawableTop="@drawable/third_tab_icon"
+				style="@style/main_tab_bottom" 
+				android:background="@drawable/home_btn_bg"
+				 />
+
+		</RadioGroup>
+	</LinearLayout>
+
+</TabHost>

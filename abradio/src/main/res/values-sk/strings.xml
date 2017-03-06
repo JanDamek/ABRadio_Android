@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    
+    <string name="app_name">ABradio</string>
+    <string name="tab_1_title">Home</string>
+    <string name="tab_2_title">Oblíbené</string>
+    <string name="tab_3_title">Poslouchané</string>
+    <string name="tab_4_title">Web</string>          
+    <string name="hraje">Hraje</string>
+    <skip/>
+    <string name="settings">Settings</string>       
+<string name="empty">Empty</string>
+<string name="prave_hraje">Právě hraje</string>
+<string name="nezhas">Nezhasínat</string>
+<string name="zhas">Zhasínat</string>
+<string name="nezhas_title">Nezhasínat display</string>
+<string name="nezhas_det">Při přehrávání rádia a spuštěném playeru nezhasínat display</string>
+<string name="only_wifi_set">Pouze WiFi</string>
+<string name="wifi_not">Jakákoliv siť</string>
+<string name="wifi_title">Hrát pouze přes WiFi</string>
+<string name="max_list_title">Počet poslouchaných v historii</string>
+<string name="lepsi_img">Větší obrázek na 3G</string>
+<string name="small_img_art">Menší obrázek na 3G</string>
+<string name="img_art_3g_set_title">Na 3G preferovat lepší kvalitu obrázku</string>
+<string name="nastaverni_menu">Nastavení</string>
+<string name="loading_str">loading...</string>
+<string name="abradio_title">ABradio</string>
+<string name="contakt_text">Pro společnost Limemedia, a.s. vytvořil DigitalScope.cz</string>
+<string name="mail_predmet">Zpráva z aplikace Android</string>
+<string name="mail_body">Text do študia</string>
+<string name="mail_zaslat">Poslat zprávu...</string>
+<string name="mail_chyba">Není naistalovaný žádný poštovní klient.</string>	
+<string name="chyba_title">Chyba</string>
+<string name="nejsou_data">Pro práci aplikace musí být načtena data ze serveru. Připojte se k internetu a spusťte aplikaci znovu.</string>
+<string name="stopapp_btn">ukončit aplikaci</string>
+<string name="chyba_uloz_obl">Chyba při ukládání oblíbených.</string>
+    <string name="chyba_uloz_list">Chyba při ukládání poslouchaných.</string>
+    <string name="chyba_start_stream">Chyba při přípravě streamu:</string>
+    <string name="chyba_str">Chyba stavu streamu:</string>
+    <string name="chyba_nac_str">Chyba načítání streamu:</string>
+    <string name="chyba_meta_str">Chyba čtení metadat streamu:</string>
+    <string name="chyba_state">Chyba stavu přípravy rádia</string>
+    <string name="err_start">Chyba přípravy spuštění rádia</string>
+    <string name="only_wifi_seting_str">V nastavení není povoleno přehrávání přes mobilní síť. Pouze WiFi.</string>
+    <string name="err_notify">Chyba přípravy notifikace</string>
+    <string name="err_set_fav">Chyba uložiště oblíbených</string>
+    <string name="err_set_list">Chyba při vložení poslouchaných.</string>
+<string name="err_stream">Neřešitelná chyba streamu (Není podporován formát audio zařízením):</string>
+    <string name="mins_add_to_text">" min"</string>
+    <string name="zeroMinuts">0 min</string>
+</resources>

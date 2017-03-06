@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#cccccc"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/hledat_btn"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:background="@drawable/search_btn_touch"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:inputType="text|textAutoCorrect"
+        android:lines="1"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:paddingRight="-50sp"
+        android:layout_marginRight="50sp">
+        <requestFocus />
+    </AutoCompleteTextView>
+
+
+    <ImageView
+        android:id="@+id/clear_search"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/search_clear_touch"
+        android:layout_marginLeft="-50sp" />
+
+</LinearLayout>

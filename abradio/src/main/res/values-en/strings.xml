@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    
+    <string name="app_name">ABradio</string>
+    <string name="tab_1_title">Home</string>
+    <string name="tab_2_title">Favorites</string>
+    <string name="tab_3_title">Listens</string>
+    <string name="tab_4_title">Web</string>          
+    <string name="hraje">Now Play</string>
+    <skip/>
+    <string name="settings">Settings</string>       
+<string name="empty">Prázdné</string>
+<string name="prave_hraje">Now play</string>
+<string name="nezhas">Turn Off</string>
+<string name="zhas">Turn Off</string>
+<string name="nezhas_title">Turn Off display</string>
+<string name="nezhas_det">When radio playback and display a running player lock screen</string>
+<string name="only_wifi_set">Only WiFi</string>
+<string name="wifi_not">Any network</string>
+<string name="wifi_title">Play only WiFi</string>
+<string name="max_list_title">Number listened in history</string>
+<string name="lepsi_img">Better resolution image</string>
+<string name="small_img_art">Small image</string>
+<string name="img_art_3g_set_title">Better image on 3G</string>
+<string name="nastaverni_menu">Settings</string>
+<string name="loading_str">loading...</string>
+<string name="abradio_title">ABradio</string>
+<string name="contakt_text">For company Limemedia, a.s. created DigitalScope.cz</string>
+<string name="mail_predmet">Message from Android aplicaton</string>
+<string name="mail_body">Mail body</string>
+<string name="mail_zaslat">Send message</string>
+<string name="mail_chyba">There is no email client installed.</string>	
+<string name="chyba_title">Error</string>
+<string name="nejsou_data">To manage the application data must be retrieved from the server. Connect to the Internet and start aplication again.</string>
+<string name="stopapp_btn">exit aplication</string>
+<string name="chyba_uloz_obl">Error saving favorites</string>
+    <string name="chyba_uloz_list">Error in save favorites.</string>
+    <string name="chyba_start_stream">Error start stream</string>
+    <string name="chyba_str">Error state stream:</string>
+    <string name="chyba_nac_str">Error buffering stream</string>
+    <string name="chyba_meta_str">Error reading metadata in stream:</string>
+    <string name="chyba_state">Error status of preparation of radio</string>
+    <string name="err_start">Error buffer start stream</string>
+    <string name="only_wifi_seting_str">The setting is not allowed to play over the mobile network. Only WiFi.</string>
+    <string name="err_notify">Error notification training</string>
+    <string name="err_set_fav">Storage error favorites</string>
+    <string name="err_set_list">Error while inserting listened.</string>
+<string name="err_stream">Not suportet audio stream by device:</string>
+    <string name="mins_add_to_text">" min"</string>
+    <string name="zeroMinuts">0 min</string>
+</resources>
